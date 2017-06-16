@@ -19,6 +19,7 @@
 		37182E831EF3B76800D23665 /* WNTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E821EF3B76800D23665 /* WNTableView.m */; };
 		37182E861EF3B77E00D23665 /* WNScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E851EF3B77E00D23665 /* WNScrollView.m */; };
 		37182E891EF3B79E00D23665 /* WNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E881EF3B79E00D23665 /* WNBaseViewController.m */; };
+		37182E8C1EF3B9BA00D23665 /* WNSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E8B1EF3B9BA00D23665 /* WNSafeMutableArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		37182E851EF3B77E00D23665 /* WNScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNScrollView.m; sourceTree = "<group>"; };
 		37182E871EF3B79E00D23665 /* WNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNBaseViewController.h; sourceTree = "<group>"; };
 		37182E881EF3B79E00D23665 /* WNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNBaseViewController.m; sourceTree = "<group>"; };
+		37182E8A1EF3B9BA00D23665 /* WNSafeMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNSafeMutableArray.h; sourceTree = "<group>"; };
+		37182E8B1EF3B9BA00D23665 /* WNSafeMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNSafeMutableArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 			children = (
 				37182E7D1EF3B45E00D23665 /* NSObject+Addition.h */,
 				37182E7E1EF3B45E00D23665 /* NSObject+Addition.m */,
+				37182E8A1EF3B9BA00D23665 /* WNSafeMutableArray.h */,
+				37182E8B1EF3B9BA00D23665 /* WNSafeMutableArray.m */,
 			);
 			path = "Foundtion+Addition";
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				37182E891EF3B79E00D23665 /* WNBaseViewController.m in Sources */,
 				37182E611EF3B28F00D23665 /* ViewController.m in Sources */,
 				37182E7F1EF3B45E00D23665 /* NSObject+Addition.m in Sources */,
+				37182E8C1EF3B9BA00D23665 /* WNSafeMutableArray.m in Sources */,
 				37182E7C1EF3B44200D23665 /* UIView+Addition.m in Sources */,
 				37182E861EF3B77E00D23665 /* WNScrollView.m in Sources */,
 				37182E5E1EF3B28F00D23665 /* AppDelegate.m in Sources */,
