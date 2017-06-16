@@ -16,6 +16,9 @@
 		37182E791EF3B42600D23665 /* CBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E781EF3B42600D23665 /* CBNavigationController.m */; };
 		37182E7C1EF3B44200D23665 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E7B1EF3B44200D23665 /* UIView+Addition.m */; };
 		37182E7F1EF3B45E00D23665 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E7E1EF3B45E00D23665 /* NSObject+Addition.m */; };
+		37182E831EF3B76800D23665 /* WNTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E821EF3B76800D23665 /* WNTableView.m */; };
+		37182E861EF3B77E00D23665 /* WNScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E851EF3B77E00D23665 /* WNScrollView.m */; };
+		37182E891EF3B79E00D23665 /* WNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37182E881EF3B79E00D23665 /* WNBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,12 @@
 		37182E7B1EF3B44200D23665 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 		37182E7D1EF3B45E00D23665 /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
 		37182E7E1EF3B45E00D23665 /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		37182E811EF3B76800D23665 /* WNTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNTableView.h; sourceTree = "<group>"; };
+		37182E821EF3B76800D23665 /* WNTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNTableView.m; sourceTree = "<group>"; };
+		37182E841EF3B77E00D23665 /* WNScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNScrollView.h; sourceTree = "<group>"; };
+		37182E851EF3B77E00D23665 /* WNScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNScrollView.m; sourceTree = "<group>"; };
+		37182E871EF3B79E00D23665 /* WNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNBaseViewController.h; sourceTree = "<group>"; };
+		37182E881EF3B79E00D23665 /* WNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 		37182E581EF3B28F00D23665 /* CBStudyProject */ = {
 			isa = PBXGroup;
 			children = (
+				37182E801EF3B74E00D23665 /* WNUIKit */,
 				37182E721EF3B3DA00D23665 /* Foundtion+Addition */,
 				37182E731EF3B3DA00D23665 /* UIKit+Addition */,
 				37182E701EF3B2EB00D23665 /* Navigation */,
@@ -126,6 +136,19 @@
 				37182E7B1EF3B44200D23665 /* UIView+Addition.m */,
 			);
 			path = "UIKit+Addition";
+			sourceTree = "<group>";
+		};
+		37182E801EF3B74E00D23665 /* WNUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				37182E811EF3B76800D23665 /* WNTableView.h */,
+				37182E821EF3B76800D23665 /* WNTableView.m */,
+				37182E841EF3B77E00D23665 /* WNScrollView.h */,
+				37182E851EF3B77E00D23665 /* WNScrollView.m */,
+				37182E871EF3B79E00D23665 /* WNBaseViewController.h */,
+				37182E881EF3B79E00D23665 /* WNBaseViewController.m */,
+			);
+			path = WNUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,10 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37182E831EF3B76800D23665 /* WNTableView.m in Sources */,
 				37182E791EF3B42600D23665 /* CBNavigationController.m in Sources */,
+				37182E891EF3B79E00D23665 /* WNBaseViewController.m in Sources */,
 				37182E611EF3B28F00D23665 /* ViewController.m in Sources */,
 				37182E7F1EF3B45E00D23665 /* NSObject+Addition.m in Sources */,
 				37182E7C1EF3B44200D23665 /* UIView+Addition.m in Sources */,
+				37182E861EF3B77E00D23665 /* WNScrollView.m in Sources */,
 				37182E5E1EF3B28F00D23665 /* AppDelegate.m in Sources */,
 				37182E5B1EF3B28F00D23665 /* main.m in Sources */,
 				37182E761EF3B40500D23665 /* CBTabbarViewController.m in Sources */,

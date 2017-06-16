@@ -8,14 +8,46 @@
 
 #import "UIView+Addition.h"
 
-@implementation UIView_Addition
+@implementation UIView (Addition)
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (CGFloat)top {
+    return self.frame.origin.y;
 }
-*/
+
+- (void)setTop:(CGFloat)top {
+    
+}
+
+- (CGFloat)left {
+    return self.frame.origin.x;
+}
+
+- (void)setLeft:(CGFloat)left {
+    
+}
+
+- (CGFloat)width {
+    return self.frame.size.width;
+}
+
+- (void)setWidth:(CGFloat)width {
+    
+}
+
+- (CGFloat)height {
+    return self.frame.size.height;
+}
+
+- (void)setHeight:(CGFloat)height {
+    
+}
+
+- (CGFloat)bottom {
+    return CGRectGetMaxY(self.frame);
+}
+
+- (void)setBottom:(CGFloat)bottom {
+    
+}
 
 @end

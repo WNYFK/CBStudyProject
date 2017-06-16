@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView_Addition : UIView
+@interface UIView (Addition)
+
+@property (nonatomic, assign) CGFloat top;
+
+@property (nonatomic, assign) CGFloat left;
+
+@property (nonatomic, assign) CGFloat bottom;
+
+@property (nonatomic, assign) CGFloat width;
+
+@property (nonatomic, assign) CGFloat height;
 
 @end
