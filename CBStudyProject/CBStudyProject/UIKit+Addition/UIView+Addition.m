@@ -15,7 +15,7 @@
 }
 
 - (void)setTop:(CGFloat)top {
-    
+    self.frame = CGRectMake(self.left, top, self.width, self.height);
 }
 
 - (CGFloat)left {
@@ -23,7 +23,7 @@
 }
 
 - (void)setLeft:(CGFloat)left {
-    
+    self.frame = CGRectMake(left, self.top, self.width, self.height);
 }
 
 - (CGFloat)width {
@@ -31,7 +31,7 @@
 }
 
 - (void)setWidth:(CGFloat)width {
-    
+    self.frame = CGRectMake(self.left, self.top, width, self.height);
 }
 
 - (CGFloat)height {
@@ -39,7 +39,7 @@
 }
 
 - (void)setHeight:(CGFloat)height {
-    
+    self.frame = CGRectMake(self.left, self.top, self.width, height);
 }
 
 - (CGFloat)bottom {
@@ -47,7 +47,7 @@
 }
 
 - (void)setBottom:(CGFloat)bottom {
-    
+    self.frame = CGRectMake(self.left, bottom - self.height, self.width, self.height);
 }
 
 @end
